@@ -14,7 +14,7 @@ fetch(`data/${slug}.json`)
     const metaContainer = document.getElementById("meta");
 
     const fields = [
-      { key: "writer", label: "✍️ रचना / Writer" },
+      { key: "writer", label: "✍️ गीतरचना / Writer" },
       { key: "singer", label: "🎤 मुख्य स्वर / Singer" },
       { key: "album", label: "💿 ध्वनीमुद्रण / Album" },
       { key: "composer", label: "🎼 संगीत संयोजन / Composer" },

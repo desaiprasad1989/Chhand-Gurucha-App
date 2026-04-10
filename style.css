@@ -33,6 +33,7 @@ input {
 
 #lyrics {
   white-space: pre-line; /* IMPORTANT for line breaks */
+  font-size: 20px;
 }
 
 button {
