@@ -1,0 +1,139 @@
+body {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  background: #fff;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+}
+
+.card {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #fafafa;
+}
+
+#lyrics {
+  white-space: pre-line; /* IMPORTANT for line breaks */
+}
+
+button {
+  margin-bottom: 15px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.category-title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.15);
+  pointer-events: none; /* important */
+  user-select: none;
+}
+
+
+/* Background container */
+.bg-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Background image layer */
+.bg-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("images/nana.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.50; /* 🔥 adjust 0.12–0.25 */
+  filter: grayscale(60%); /* matches your image style */
+
+  z-index: 0;
+}
+
+/* Soft overlay for readability */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85); /* light theme */
+  z-index: 1;
+}
+
+/* Hardcoded watermark text */
+.watermark-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.09);
+  text-align: center;
+  
+  white-space: nowrap;
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 2;
+}
+
+/* Main content */
+.wrapper {
+  position: relative;
+  z-index: 3;
+  padding: 20px;
+}
+
+.meta {
+  margin: 15px 0 25px;
+  padding: 15px;
+
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.meta p {
+  margin: 5px 0;
+}
+
+.meta strong {
+  color: #444;
+}
