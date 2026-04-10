@@ -6,8 +6,8 @@ body {
 
 .wrapper {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 0 15px;
+  margin: 20px auto;
+  padding: 015px;
 }
 
 h1 {
@@ -143,4 +143,73 @@ button {
 
 .meta strong {
   color: #444;
+}
+
+.card {
+  cursor: pointer;
+  padding: 12px 5px;
+}
+
+.card {
+  cursor: pointer;
+  padding: 12px 5px;
+}
+
+.bg-container::before {
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* 📱 Mobile Devices */
+@media (max-width: 600px) {
+
+  .wrapper {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .card {
+    padding: 10px 0;
+  }
+
+  .card h3 {
+    font-size: 15px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .meta {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  #lyrics {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
 }
