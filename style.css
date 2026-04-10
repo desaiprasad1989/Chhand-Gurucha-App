@@ -19,12 +19,18 @@ input {
   padding: 10px;
   margin: 15px 0;
   border: 1px solid #ccc;
+  max-width: 550px;
 }
 
 .card {
-  padding: 12px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #eee;
   cursor: pointer;
+}
+
+.card h3{
+    display: inline;
+    font-weight: 500;
 }
 
 .card:hover {

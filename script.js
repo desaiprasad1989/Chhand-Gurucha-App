@@ -36,7 +36,6 @@ function display(data) {
       results.innerHTML += `
         <div class="card" onclick="openBhajan('${b.slug}')">
           <h3>${b.title}</h3>
-          <p>${b.preview}</p>
         </div>
       `;
     });
