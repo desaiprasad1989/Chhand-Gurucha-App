@@ -15,6 +15,7 @@ fetch(`data/${slug}.json`)
 
     const fields = [
       { key: "writer", label: "✍️ गीतरचना / Writer" },
+      { key: "dialogs", label: "✍️ संकलन लेखन / Compilation Writing" },
       { key: "singer", label: "🎤 मुख्य स्वर / Singer" },
       { key: "album", label: "💿 ध्वनीमुद्रण / Album" },
       { key: "composer", label: "🎼 संगीत संयोजन / Composer" },

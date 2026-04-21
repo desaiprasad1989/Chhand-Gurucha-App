@@ -90,5 +90,26 @@
     "preview": "ऐक बा हाक नानानाथा",
     "searchText": "aik ba hak nananatha",
     "category": "bhajan"
+  },
+  {
+    "slug": "nanancha-powada",
+    "title": "नानांचा पोवाडा",
+    "preview": "नानांचा पोवाडा",
+    "searchText": "nanancha powada",
+    "category": "bhajan"
+  },
+    {
+    "slug": "gurucha-lago-ha-chhand",
+    "title": "भगवंता माझ्या देहाला, नामाचा राहो गंध",
+    "preview": "भगवंता माझ्या देहाला, नामाचा राहो गंध",
+    "searchText": "gurucha lago ha chhand",
+    "category": "bhajan"
+  },
+   {
+    "slug": "man-mandiri-ya-ho-nana",
+    "title": "मनमंदिरी या हो नाना",
+    "preview": "मनमंदिरी या हो नाना",
+    "searchText": "man mandiri ya ho nana",
+    "category": "bhajan"
   }
 ]
