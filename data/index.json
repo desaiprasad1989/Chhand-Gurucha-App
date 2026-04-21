@@ -34,5 +34,61 @@
     "preview": "नानांचा पाळणा...",
     "searchText": "nana palana",
     "category": "bhajan"
+  },
+  {
+    "slug": "martand-geet",
+    "title": "नागपंचमी पाहुनी शुभदिन । भूवरी रवी आला",
+    "preview": "नागपंचमी पाहुनी शुभदिन भूवरी रवी आला",
+    "searchText": "nagpanchami pahuni shubh din",
+    "category": "bhajan"
+  },
+  {
+    "slug": "bukka",
+    "title": "भाव बुक्का लावा ग बाई सद्गुरुंच्या भाळी",
+    "preview": "भाव बुक्का लावा ग बाई सद्गुरुंच्या भाळी",
+    "searchText": "bhav bukka lava g bai",
+    "category": "bhajan"
+  },
+  {
+    "slug": "prasad",
+    "title": "पावलो प्रसाद आता, नाना सुखे असावे",
+    "preview": "पावलो प्रसाद आता, नाना सुखे असावे",
+    "searchText": "pavalo prasad ata",
+    "category": "bhajan"
+  },
+  {
+    "slug": "aaj-mazya-lochananni",
+    "title": "आज माझ्या लोचनांनी, मूर्ती गुरुची पहिली",
+    "preview": "आज माझ्या लोचनांनी, मूर्ती गुरुची पहिली",
+    "searchText": "aaj mazya lochananni",
+    "category": "bhajan"
+  },
+  {
+    "slug": "guruvara-sambhala-majasi",
+    "title": "गुरुवरा सांभाळा मजसी | विनवणी आहे पायाशी",
+    "preview": "गुरुवरा सांभाळा मजसी | विनवणी आहे पायाशी",
+    "searchText": "guruvara sambhala majasi",
+    "category": "bhajan"
+  },
+   {
+    "slug": "rup-ek-name",
+    "title": "रूप एक नामे, तुझी रे अनंत",
+    "preview": "रूप एक नामे, तुझी रे अनंत",
+    "searchText": "rup ek name tuzi re ananta",
+    "category": "bhajan"
+  },
+  {
+    "slug": "rup-he-gojire",
+    "title": "रूप हे गोजिरे नानांचे पाहिले",
+    "preview": "रूप हे गोजिरे नानांचे पाहिले",
+    "searchText": "rup he gojire nananche pahile",
+    "category": "bhajan"
+  },
+  {
+    "slug": "aik-ba-hak-nananatha",
+    "title": "ऐक बा हाक नानानाथा",
+    "preview": "ऐक बा हाक नानानाथा",
+    "searchText": "aik ba hak nananatha",
+    "category": "bhajan"
   }
 ]
